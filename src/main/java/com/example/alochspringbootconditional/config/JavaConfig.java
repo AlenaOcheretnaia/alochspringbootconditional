@@ -2,12 +2,12 @@ package com.example.alochspringbootconditional.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 import profile.DevProfile;
 import profile.ProductionProfile;
 import profile.SystemProfile;
 
-@Component
+@Configuration
 public class JavaConfig {
 
     @Bean
